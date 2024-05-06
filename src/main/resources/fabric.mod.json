@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lovecraft",
+	"version": "${version}",
+	"name": "Lovecraft",
+	"description": "This is the first MOd-Project from Exciision",
+	"authors": [
+		"Exciision"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lovecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"exciision.lovecraft.Lovecraft"
+		],
+		"client": [
+			"exciision.lovecraft.LovecraftClient"
+		],
+		"fabric-datagen": [
+			"exciision.lovecraft.LovecraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"lovecraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
