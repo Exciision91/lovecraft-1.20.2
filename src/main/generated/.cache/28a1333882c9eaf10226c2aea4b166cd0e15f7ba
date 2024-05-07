@@ -1,4 +1,4 @@
-// 1.20.2	2024-05-07T21:35:03.6478681	Lovecraft/Model Definitions
+// 1.20.2	2024-05-07T22:32:18.3258251	Lovecraft/Model Definitions
 e7b58d0423411826e9f795fcf4590b7bcb863537 assets\lovecraft\models\block\ftharin_ore.json
 c476ea1b1bc39dbc2ee4bae31623f1d0c75b1998 assets\lovecraft\models\item\raw_ftharin_block.json
 0db83a4a6e92006267966344991b0af5dead1d62 assets\lovecraft\blockstates\ftharin_ore.json
@@ -12,7 +12,7 @@ ef0c0c091636e6aea00c049cf739ee0d69accc01 assets\lovecraft\blockstates\raw_fthari
 2a260896b2699edb7e6825f844a4278eb7240c22 assets\lovecraft\blockstates\ftharin_block.json
 8fbe36cdb023d5e0f3cfe1076bb721e38b5d4a9b assets\lovecraft\models\item\ftharin_ingot.json
 c6ce2d9e106459fc71577efcc41304148eebdfa9 assets\lovecraft\models\item\deepslate_ftharin_ore.json
-8d654fba10e0efee43c2e44af89a7680adde7056 assets\lovecraft\models\item\nether_ftharin_ore.json
 361b8fa2eba3a775f6497c4ff47e80c79d543287 assets\lovecraft\blockstates\deepslate_ftharin_ore.json
-3ad97c6eb688d413872f77e6aae175a29e2311c1 assets\lovecraft\models\block\deepslate_ftharin_ore.json
+8d654fba10e0efee43c2e44af89a7680adde7056 assets\lovecraft\models\item\nether_ftharin_ore.json
 4b75156e893668b31887b1f64567a4ec32beb390 assets\lovecraft\models\block\raw_ftharin_block.json
+3ad97c6eb688d413872f77e6aae175a29e2311c1 assets\lovecraft\models\block\deepslate_ftharin_ore.json
