@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lovecraft:block/nether_ftharin_ore"
+  }
+}

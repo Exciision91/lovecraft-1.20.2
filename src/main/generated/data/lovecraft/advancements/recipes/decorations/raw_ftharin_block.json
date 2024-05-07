@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_ftharin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lovecraft:raw_ftharin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_ftharin_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_ftharin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_ftharin_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}
