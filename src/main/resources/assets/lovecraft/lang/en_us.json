@@ -2,5 +2,8 @@
   "item.lovecraft.ftharin_ingot": "Ftharin Ingot",
   "item.lovecraft.raw_ftharin": "Raw Ftharin",
 
-  "itemgroup.ftharin": "Fhtarin Group"
+  "block.lovecraft.ftharin_block": "Block of Ftharin",
+  "block.lovecraft.raw_ftharin_block": "Block of Raw Ftharin",
+
+  "itemgroup.ftharin": "Ftharin Lovecraft Group"
 }

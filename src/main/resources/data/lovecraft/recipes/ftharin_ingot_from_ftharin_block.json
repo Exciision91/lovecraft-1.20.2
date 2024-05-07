@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "lovecraft:ftharin_block"
+    }
+  ],
+  "result": {
+    "item": "lovecraft:ftharin_ingot",
+    "count": 9
+  }
+}

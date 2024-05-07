@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lovecraft:ftharin_ingot"
+    }
+  },
+  "result": {
+    "item": "lovecraft:ftharin_block"
+  }
+}

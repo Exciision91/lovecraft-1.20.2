@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lovecraft:raw_ftharin"
+    }
+  },
+  "result": {
+    "item": "lovecraft:raw_ftharin_block"
+  }
+}

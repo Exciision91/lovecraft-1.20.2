@@ -1,5 +1,6 @@
 package exciision.lovecraft;
 
+import exciision.lovecraft.blocks.ModBlocks;
 import exciision.lovecraft.item.ModItemGroups;
 import exciision.lovecraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,8 @@ public class Lovecraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

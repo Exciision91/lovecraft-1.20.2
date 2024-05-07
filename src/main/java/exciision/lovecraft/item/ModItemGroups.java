@@ -1,6 +1,7 @@
 package exciision.lovecraft.item;
 
 import exciision.lovecraft.Lovecraft;
+import exciision.lovecraft.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,7 +18,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_FTHARIN);
                         entries.add(ModItems.FTHARIN_INGOT);
 
-
+                        entries.add(ModBlocks.FTHARIN_BLOCK);
+                        entries.add(ModBlocks.RAW_FTHARIN_BLOCK);
 
                     }).build());
 
