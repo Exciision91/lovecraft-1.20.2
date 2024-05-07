@@ -21,6 +21,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FTHARIN_BLOCK);
                         entries.add(ModBlocks.RAW_FTHARIN_BLOCK);
 
+                        entries.add(ModBlocks.FTHARIN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_FTHARIN_ORE);
+                        entries.add(ModBlocks.NETHER_FTHARIN_ORE);
+
                     }).build());
 
     public static void registerItemGroups() {

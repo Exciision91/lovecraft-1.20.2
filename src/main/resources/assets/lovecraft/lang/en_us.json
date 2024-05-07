@@ -5,5 +5,9 @@
   "block.lovecraft.ftharin_block": "Block of Ftharin",
   "block.lovecraft.raw_ftharin_block": "Block of Raw Ftharin",
 
+  "block.lovecraft.ftharin_ore": "Ftharin Ore",
+  "block.lovecraft.deepslate_ftharin_ore": "Deepslate Ftharin Ore",
+  "block.lovecraft.nether_ftharin_ore": "Nether Ftharin Ore",
+
   "itemgroup.ftharin": "Ftharin Lovecraft Group"
 }
