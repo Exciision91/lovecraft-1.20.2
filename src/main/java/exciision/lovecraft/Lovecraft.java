@@ -1,6 +1,6 @@
 package exciision.lovecraft;
 
-import exciision.lovecraft.blocks.ModBlocks;
+import exciision.lovecraft.block.ModBlocks;
 import exciision.lovecraft.item.ModItemGroups;
 import exciision.lovecraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;

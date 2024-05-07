@@ -1,4 +1,4 @@
-package exciision.lovecraft.blocks;
+package exciision.lovecraft.block;
 
 import exciision.lovecraft.Lovecraft;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

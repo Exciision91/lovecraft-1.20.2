@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lovecraft:block/ftharin_ore"
-  }
-}

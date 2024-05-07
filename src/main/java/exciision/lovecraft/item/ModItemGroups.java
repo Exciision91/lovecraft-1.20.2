@@ -1,7 +1,7 @@
 package exciision.lovecraft.item;
 
 import exciision.lovecraft.Lovecraft;
-import exciision.lovecraft.blocks.ModBlocks;
+import exciision.lovecraft.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
