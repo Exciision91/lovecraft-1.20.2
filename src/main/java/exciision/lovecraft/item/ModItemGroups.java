@@ -25,6 +25,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_FTHARIN_ORE);
                         entries.add(ModBlocks.NETHER_FTHARIN_ORE);
 
+                        entries.add(ModItems.FTHARIN_PICKAXE);
+                        entries.add(ModItems.FTHARIN_AXE);
+                        entries.add(ModItems.FTHARIN_SHOVEL);
+                        entries.add(ModItems.FTHARIN_SWORD);
+                        entries.add(ModItems.FTHARIN_HOE);
+
+
                     }).build());
 
     public static void registerItemGroups() {

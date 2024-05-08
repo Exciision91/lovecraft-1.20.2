@@ -28,5 +28,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FTHARIN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_FTHARIN, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.FTHARIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FTHARIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FTHARIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FTHARIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.FTHARIN_HOE, Models.HANDHELD);
+
     }
 }

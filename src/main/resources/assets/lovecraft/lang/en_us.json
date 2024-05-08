@@ -9,5 +9,11 @@
   "block.lovecraft.deepslate_ftharin_ore": "Deepslate Ftharin Ore",
   "block.lovecraft.nether_ftharin_ore": "Nether Ftharin Ore",
 
+  "item.lovecraft.ftharin_pickaxe": "Ftharin Pickaxe",
+  "item.lovecraft.ftharin_axe": "Ftharin Axe",
+  "item.lovecraft.ftharin_shovel": "Ftharin Shovel",
+  "item.lovecraft.ftharin_sword": "Ftharin Sword",
+  "item.lovecraft.ftharin_hoe": "Ftharin Hoe",
+
   "itemgroup.ftharin": "Ftharin Lovecraft Group"
 }

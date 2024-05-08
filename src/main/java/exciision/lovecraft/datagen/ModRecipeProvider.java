@@ -34,14 +34,55 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 RecipeCategory.DECORATIONS, ModBlocks.RAW_FTHARIN_BLOCK);
 
 
-        //ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_FTHARIN,1)
-        //        .pattern("###")
-        //        .pattern("#F#")
-        //        .pattern("###")
-        //        .input("#", Items.STONE)
-        //        .input("F", ModItems.RAW_FTHARIN)
-        //        .criterion(hasItem(Items.STONE),conditionsFromItem(Items.STONE))
-        //        .criterion(hasItem(ModItems.RAW_FTHARIN),conditionsFromItem(ModItems.RAW_FTHARIN))
-        //        .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_FTHARIN)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FTHARIN_PICKAXE, 1)
+                .pattern("FFF")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('F', ModItems.FTHARIN_INGOT)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.FTHARIN_INGOT), conditionsFromItem(ModItems.FTHARIN_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.FTHARIN_PICKAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FTHARIN_AXE, 1)
+                .pattern("FF")
+                .pattern("FS")
+                .pattern(" S")
+                .input('S', Items.STICK)
+                .input('F', ModItems.FTHARIN_INGOT)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.FTHARIN_INGOT), conditionsFromItem(ModItems.FTHARIN_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.FTHARIN_AXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FTHARIN_SHOVEL, 1)
+                .pattern("F")
+                .pattern("S")
+                .pattern("S")
+                .input('S', Items.STICK)
+                .input('F', ModItems.FTHARIN_INGOT)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.FTHARIN_INGOT), conditionsFromItem(ModItems.FTHARIN_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.FTHARIN_SHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FTHARIN_SWORD, 1)
+                .pattern("F")
+                .pattern("F")
+                .pattern("S")
+                .input('S', Items.STICK)
+                .input('F', ModItems.FTHARIN_INGOT)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.FTHARIN_INGOT), conditionsFromItem(ModItems.FTHARIN_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.FTHARIN_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FTHARIN_HOE, 1)
+                .pattern("FF")
+                .pattern(" S")
+                .pattern(" S")
+                .input('S', Items.STICK)
+                .input('F', ModItems.FTHARIN_INGOT)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.FTHARIN_INGOT), conditionsFromItem(ModItems.FTHARIN_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.FTHARIN_HOE)));
+
     }
 }

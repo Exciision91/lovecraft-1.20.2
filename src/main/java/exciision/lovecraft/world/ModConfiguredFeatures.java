@@ -33,8 +33,8 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(netherReplacables, ModBlocks.NETHER_FTHARIN_ORE.getDefaultState()));
 
 
-        register(context, FTHARIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldFtharinOres, 12));
-        register(context, NETHER_FTHARIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherFtharinOres, 12));
+        register(context, FTHARIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldFtharinOres, 9));
+        register(context, NETHER_FTHARIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherFtharinOres, 9));
     }
 
 
