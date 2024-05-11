@@ -1,6 +1,4 @@
-Current status:
-
-Working on new blocks and structures.
+Current status: Working on new blocks and structures.
 
 
 
@@ -15,9 +13,7 @@ If you have any ideas or input, please let me know!
 Excii/Mirco
 
 --------------------------------
-Derzeitiger Status:
-
-Arbeite an neuen Blöcken und Strukturen.
+Derzeitiger Status: Arbeite an neuen Blöcken und Strukturen.
 
 
 
