@@ -1,3 +1,9 @@
+Current status:
+
+Working on new blocks and structures.
+
+
+
 Hello everyone.
 
 I just started working with Java a few days ago. It's supposed to be a little hobby on the side, which I might be able to use professionally later on.
@@ -9,6 +15,11 @@ If you have any ideas or input, please let me know!
 Excii/Mirco
 
 --------------------------------
+Derzeitiger Status:
+
+Arbeite an neuen Blöcken und Strukturen.
+
+
 
 Hallo alle zusammen.
 
